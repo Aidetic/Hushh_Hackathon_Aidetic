@@ -1,0 +1,7 @@
+[
+  {"table_id": "T1", "capacity": 2, "available_dates": ["2025-07-24", "2025-07-25", "2025-07-26"]},
+  {"table_id": "T2", "capacity": 4, "available_dates": ["2025-07-24", "2025-07-25", "2025-07-27"]},
+  {"table_id": "T3", "capacity": 6, "available_dates": ["2025-07-24", "2025-07-26"]},
+  {"table_id": "T4", "capacity": 8, "available_dates": ["2025-07-25", "2025-07-26"]},
+  {"table_id": "T5", "capacity": 12, "available_dates": ["2025-07-26", "2025-07-27"]}
+]

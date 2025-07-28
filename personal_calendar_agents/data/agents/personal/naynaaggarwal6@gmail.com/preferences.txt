@@ -1,0 +1,28 @@
+full_name: Nayna Aggarwal
+
+likes:
+  - Reading novels, collecting bookmarks, journaling
+  - Plants, home decor, aromatherapy
+  - Baking cookies and cupcakes
+  - K-dramas, Bollywood music
+
+gift_preferences:
+  - Books, custom jewelry, scented diffusers, plants
+
+party_preferences:
+  - Small tea parties or themed brunches
+  - Loves making personalized playlists for friends
+  - Prefers homemade food, salad bars, fruit punches
+
+travel_preferences:
+  - Beach vacations, spa retreats, shopping destinations
+  - Enjoys solo travel and city explorations
+
+academic/career_interests:
+  - Psychology, counseling, creative writing
+
+social_style:
+  - Mostly introvert, but opens up with close friends
+
+quirks:
+  - Forgets birthdays but always brings the best homemade desserts

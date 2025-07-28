@@ -1,0 +1,122 @@
+[
+  {
+    "date": "2025-07-08",
+    "merchant": "Oyo Rooms",
+    "category_group": "Leisure",
+    "category": "Travel",
+    "item": "Hotel Booking",
+    "amount": 2384
+  },
+  {
+    "date": "2025-07-16",
+    "merchant": "Apollo Pharmacy",
+    "category_group": "Essentials",
+    "category": "Healthcare",
+    "item": "Cough Syrup",
+    "amount": 128
+  },
+  {
+    "date": "2025-07-06",
+    "merchant": "BigBasket",
+    "category_group": "Essentials",
+    "category": "Groceries",
+    "item": "Butter",
+    "amount": 366
+  },
+  {
+    "date": "2025-07-12",
+    "merchant": "Local Liquor Shop",
+    "category_group": "Food & Drink",
+    "category": "Liquor",
+    "item": "Whiskey",
+    "amount": 547
+  },
+  {
+    "date": "2025-07-12",
+    "merchant": "Zomato",
+    "category_group": "Food & Drink",
+    "category": "Outside Food",
+    "item": "Milkshake",
+    "amount": 763
+  },
+  {
+    "date": "2025-07-01",
+    "merchant": "Local Liquor Shop",
+    "category_group": "Food & Drink",
+    "category": "Liquor",
+    "item": "Beer",
+    "amount": 2083
+  },
+  {
+    "date": "2025-07-23",
+    "merchant": "Amazon",
+    "category_group": "Home & Decor",
+    "category": "Home Decor",
+    "item": "Cushion Cover",
+    "amount": 1923
+  },
+  {
+    "date": "2025-07-22",
+    "merchant": "UrbanClap",
+    "category_group": "Leisure",
+    "category": "Services",
+    "item": "Cleaning Service",
+    "amount": 3722
+  },
+  {
+    "date": "2025-06-28",
+    "merchant": "Zomato",
+    "category_group": "Food & Drink",
+    "category": "Outside Food",
+    "item": "Veg Platter",
+    "amount": 743
+  },
+  {
+    "date": "2025-07-09",
+    "merchant": "Bata",
+    "category_group": "Lifestyle",
+    "category": "Shoes",
+    "item": "Loafers",
+    "amount": 3124
+  },
+  {
+    "date": "2025-07-10",
+    "merchant": "Pepperfry",
+    "category_group": "Home & Decor",
+    "category": "Home Decor",
+    "item": "Wall Art",
+    "amount": 539
+  },
+  {
+    "date": "2025-07-02",
+    "merchant": "Apple Store",
+    "category_group": "Electronics",
+    "category": "Electronics",
+    "item": "Apple Cable",
+    "amount": 10170
+  },
+  {
+    "date": "2025-07-14",
+    "merchant": "Apple Store",
+    "category_group": "Electronics",
+    "category": "Electronics",
+    "item": "iPhone Case",
+    "amount": 12484
+  },
+  {
+    "date": "2025-07-02",
+    "merchant": "BookMyShow",
+    "category_group": "Leisure",
+    "category": "Recreation",
+    "item": "Concert Ticket",
+    "amount": 1269
+  },
+  {
+    "date": "2025-07-11",
+    "merchant": "Pepperfry",
+    "category_group": "Home & Decor",
+    "category": "Home Decor",
+    "item": "Bed Sheet",
+    "amount": 1145
+  }
+]

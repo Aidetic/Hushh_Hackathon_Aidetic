@@ -1,0 +1,27 @@
+full_name: Bidita Mukerjee
+
+likes:
+  - Painting, classical music, poetry
+  - Gardening and taking care of indoor plants
+  - Scented candles, soft toys, handmade gifts
+
+gift_preferences:
+  - Handwritten notes, art supplies, scented candles, plushies
+
+party_preferences:
+  - Prefers cozy house parties, DIY decorations, movie marathons
+  - Loves dessert tables (cakes, brownies, cupcakes)
+  - Enjoys karaoke and charades
+
+travel_preferences:
+  - Prefers heritage sites, museums, art galleries
+  - Weekend trips to quiet places, yoga retreats
+
+academic/career_interests:
+  - Literature, psychology, enjoys book clubs and creative writing events
+
+social_style:
+  - Ambivert, enjoys deep conversations with small groups
+
+quirks:
+  - Will make cards for every occasion, dislikes last-minute plans

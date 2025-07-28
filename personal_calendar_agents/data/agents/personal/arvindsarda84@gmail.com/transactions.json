@@ -1,0 +1,122 @@
+[
+  {
+    "date": "2025-07-18",
+    "merchant": "Cafe Coffee Day",
+    "category_group": "Food & Drink",
+    "category": "Coffee",
+    "item": "Cafe Latte",
+    "amount": 494
+  },
+  {
+    "date": "2025-07-08",
+    "merchant": "Pantaloons",
+    "category_group": "Lifestyle",
+    "category": "Garments",
+    "item": "Dupatta",
+    "amount": 2665
+  },
+  {
+    "date": "2025-07-11",
+    "merchant": "Adidas",
+    "category_group": "Lifestyle",
+    "category": "Shoes",
+    "item": "Slippers",
+    "amount": 2822
+  },
+  {
+    "date": "2025-07-18",
+    "merchant": "Pepperfry",
+    "category_group": "Home & Decor",
+    "category": "Home Decor",
+    "item": "Sofa Throw",
+    "amount": 1058
+  },
+  {
+    "date": "2025-06-28",
+    "merchant": "BookMyShow",
+    "category_group": "Leisure",
+    "category": "Recreation",
+    "item": "Concert Ticket",
+    "amount": 3013
+  },
+  {
+    "date": "2025-07-20",
+    "merchant": "Amazon",
+    "category_group": "Electronics",
+    "category": "Electronics",
+    "item": "Wireless Mouse",
+    "amount": 5281
+  },
+  {
+    "date": "2025-07-15",
+    "merchant": "Amazon",
+    "category_group": "Home & Decor",
+    "category": "Home Decor",
+    "item": "Table Lamp",
+    "amount": 440
+  },
+  {
+    "date": "2025-07-06",
+    "merchant": "Bowling Alley",
+    "category_group": "Leisure",
+    "category": "Recreation",
+    "item": "Shoe Rental",
+    "amount": 835
+  },
+  {
+    "date": "2025-07-04",
+    "merchant": "Amazon",
+    "category_group": "Home & Decor",
+    "category": "Home Decor",
+    "item": "Table Lamp",
+    "amount": 2802
+  },
+  {
+    "date": "2025-07-24",
+    "merchant": "Amazon",
+    "category_group": "Home & Decor",
+    "category": "Home Decor",
+    "item": "Cushion Cover",
+    "amount": 835
+  },
+  {
+    "date": "2025-06-30",
+    "merchant": "Reliance Fresh",
+    "category_group": "Essentials",
+    "category": "Groceries",
+    "item": "Potatoes",
+    "amount": 274
+  },
+  {
+    "date": "2025-07-12",
+    "merchant": "Amazon",
+    "category_group": "Electronics",
+    "category": "Electronics",
+    "item": "Tablet",
+    "amount": 5030
+  },
+  {
+    "date": "2025-07-06",
+    "merchant": "Reliance Fresh",
+    "category_group": "Essentials",
+    "category": "Groceries",
+    "item": "Paneer",
+    "amount": 672
+  },
+  {
+    "date": "2025-07-18",
+    "merchant": "Amazon",
+    "category_group": "Electronics",
+    "category": "Electronics",
+    "item": "Webcam",
+    "amount": 14691
+  },
+  {
+    "date": "2025-06-25",
+    "merchant": "Amazon",
+    "category_group": "Electronics",
+    "category": "Electronics",
+    "item": "Webcam",
+    "amount": 6662
+  }
+]
