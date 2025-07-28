@@ -1,0 +1,6 @@
+[
+  {"flight_id": "F100", "from": "Bangalore", "to": "Goa", "date": "2025-07-28", "time": "09:45", "price": 3499},
+  {"flight_id": "F101", "from": "Bangalore", "to": "Delhi", "date": "2025-07-29", "time": "14:15", "price": 4999},
+  {"flight_id": "F102", "from": "Delhi", "to": "Mumbai", "date": "2025-07-30", "time": "16:00", "price": 5399},
+  {"flight_id": "F103", "from": "Mumbai", "to": "Chennai", "date": "2025-07-31", "time": "12:20", "price": 3999}
+]

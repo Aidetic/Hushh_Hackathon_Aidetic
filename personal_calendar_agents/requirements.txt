@@ -1,0 +1,6 @@
+genai
+python-dotenv
+google-auth==2.40.1
+google-genai==1.12.1
+fastapi
+uvicorn
