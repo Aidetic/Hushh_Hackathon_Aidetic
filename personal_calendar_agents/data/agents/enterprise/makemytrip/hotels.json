@@ -1,5 +1,0 @@
-[
-  {"hotel_id": "H100", "city": "Goa", "name": "Sea Breeze Resort", "rating": 4.4, "price_per_night": 2999, "available_dates": ["2025-07-28", "2025-07-29"]},
-  {"hotel_id": "H101", "city": "Delhi", "name": "Royal Comfort", "rating": 4.0, "price_per_night": 3499, "available_dates": ["2025-07-29", "2025-07-30"]},
-  {"hotel_id": "H102", "city": "Mumbai", "name": "Marine View", "rating": 4.2, "price_per_night": 2799, "available_dates": ["2025-07-30", "2025-07-31"]}
-]

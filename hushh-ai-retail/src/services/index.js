@@ -14,6 +14,8 @@ console.log(BASE_URL, "9999");
 // };
 
 export const getDeals = async (payload, onStreamMessage, onFinalReport) => {
+  console.log(payload, "payload");
+  
   const response = await fetch(`${BASE_URL}/run_agent`, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
@@ -39,7 +41,11 @@ export const getDeals = async (payload, onStreamMessage, onFinalReport) => {
     const lines = chunk.split("\n").filter(Boolean);
     for (const line of lines) {
       try {
+        console.log(typeof line);
+        
         const parsed = JSON.parse(JSON.parse(line)) ;
+        console.log(typeof parsed);
+        
         if (parsed.title === "logs") {
           onStreamMessage(parsed.content);
         } else if (parsed.title === "report") {

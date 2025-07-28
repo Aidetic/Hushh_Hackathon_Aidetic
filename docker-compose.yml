@@ -1,0 +1,20 @@
+services:
+  frontend:
+    build:
+      context: ./hushh-ai-retail
+      dockerfile: Dockerfile
+    container_name: hushh_ai_fe
+    ports:
+      - "3011:5173"
+  backend:
+    build:
+      context: ./personal_calendar_agents
+      dockerfile: Dockerfile
+    container_name: calendar-agents-api
+    ports:
+      - "10003:8000"
+    # volumes:
+    #   - .:/app
+    #   - ./data:/app/data   # This line mounts your host 'data/' folder to '/app/data' inside the container
+    env_file:
+      - ./personal_calendar_agents/.env
