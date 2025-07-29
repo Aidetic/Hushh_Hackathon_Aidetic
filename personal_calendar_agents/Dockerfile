@@ -13,6 +13,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy your code (assumes core/ and server/ at project root)
 COPY ./core ./core
 COPY ./server ./server
+COPY . /app
 
 # Set environment variable for unbuffered output (good for logs)
 ENV PYTHONUNBUFFERED=1
