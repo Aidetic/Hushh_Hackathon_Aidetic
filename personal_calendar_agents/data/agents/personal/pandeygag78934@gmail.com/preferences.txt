@@ -1,0 +1,29 @@
+full_name: Gagan Pandey
+
+likes:
+  - All kinds of sports (especially cricket and football)
+  - Gaming (console and PC), FIFA, fantasy leagues
+  - Eating out (fast food, burgers, biryani)
+  - Stand-up comedy, live matches
+
+gift_preferences:
+  - Sports merchandise, jerseys, gaming accessories, tickets to matches
+
+party_preferences:
+  - Loves large parties, game nights, watching matches with friends
+  - Prefers venues with big screens for match streaming
+  - Enjoys BBQ, biryani, wings, and beer
+
+travel_preferences:
+  - Spontaneous weekend getaways
+  - Adventure sports (rafting, rock climbing, cycling trips)
+  - Road trips and exploring new cafes
+
+academic/career_interests:
+  - Management, marketing, sports analytics, event organizing
+
+social_style:
+  - Extrovert, often the entertainer and prankster of the group
+
+quirks:
+  - Always brings board games, tries to turn every event into a competition

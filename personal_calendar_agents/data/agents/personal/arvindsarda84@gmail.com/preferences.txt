@@ -1,0 +1,26 @@
+full_name: Arvind Sarda
+
+likes:
+  - Jazz music, vinyl record collecting
+  - Cooking new cuisines, especially Italian
+  - Photography, road cycling
+
+gift_preferences:
+  - Gourmet chocolates, wine, kitchen gadgets, coffee blends
+
+party_preferences:
+  - Enjoys wine-and-cheese nights, rooftop parties, and brunches
+  - Likes planning themed events (retro, 80s, travel-inspired)
+
+travel_preferences:
+  - Wine trails, cultural tours, mountain biking holidays
+  - Interested in international travel, prefers Airbnb stays
+
+academic/career_interests:
+  - Finance, entrepreneurship, culinary arts
+
+social_style:
+  - Calm, reserved in big groups but great conversationalist one-on-one
+
+quirks:
+  - Takes over the BBQ at every party, always suggests photo sessions

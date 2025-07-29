@@ -1,0 +1,11 @@
+services:
+  app:
+    build: .
+    container_name: calendar-agents-api
+    ports:
+      - "10003:8000"
+    volumes:
+      - .:/app
+      - ./data:/app/data   # This line mounts your host 'data/' folder to '/app/data' inside the container
+    environment:
+      - PYTHONUNBUFFERED=1
