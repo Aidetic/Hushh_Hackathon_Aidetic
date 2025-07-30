@@ -8,7 +8,7 @@ This document outlines the implementation of an agent-based action planner and e
 
 The diagram below illustrates the architecture of the agent-based action planner and executor system:
 
-![diagram](assets/overview.png)
+![diagram](personal_calendar_agents/assets/overview.png)
 
 
 ## **Components:**
