@@ -1,6 +1,4 @@
-from google import genai
 from core.llm.base import LlmBase
-from google.genai import types
 from core.settings import settings
 
 class LlmGemini(LlmBase):
@@ -16,6 +14,7 @@ class LlmGemini(LlmBase):
         """
         Initializes the Gemini LLM client using API credentials from the settings.
         """
+        from google import genai
         self.client = genai.Client(api_key=settings.GEMINI_API_KEY)
         self.gemini_model_name = settings.GEMINI_MODEL_NAME
 
@@ -41,6 +40,7 @@ class LlmGemini(LlmBase):
                     * image_token_count
                     * output_text_token_count
         """
+        from google.genai import types
         contents_list = [prompt_str]
         
         gemini_api_response = self.client.models.generate_content(
