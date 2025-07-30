@@ -1,8 +1,8 @@
 from core.tools.base import Tool
-
+import os
 
 class GetChats(Tool):
-    def __call__(self, user_id, base_dir="./data/agents/personal"):
+    def __call__(self, user_id, base_dir=f"{os.getenv('DATABASE')}/agents/personal"):
         """
 
         FOR ANY QUERY RELATED TO CHATS, ENSURE THAT THIS IS CALLED AND CHATS ARE LOADED

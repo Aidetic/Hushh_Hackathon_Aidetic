@@ -3,7 +3,7 @@ import os
 import json
 
 class ListBookings(Tool):
-    def __call__(self, user_id, base_dir="./data/agents/enterprise/hard_rock_cafe"):
+    def __call__(self, user_id, base_dir=f"{os.getenv('DATABASE')}/agents/enterprise/hard_rock_cafe"):
         """
         list_bookings(user_id: str, base_dir: str = "./data/agents/enterprise/hard_rock_cafe") -> list
 

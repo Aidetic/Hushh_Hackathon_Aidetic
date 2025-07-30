@@ -3,7 +3,7 @@ import os
 import json
 
 class ShowMenu(Tool):
-    def __call__(self, base_dir="./data/agents/enterprise/hard_rock_cafe", user_id = None):
+    def __call__(self, base_dir=f"{os.getenv('DATABASE')}/agents/enterprise/hard_rock_cafe", user_id = None):
         """
         show_menu(base_dir: str = "./data/agents/enterprise/hard_rock_cafe") -> list
 

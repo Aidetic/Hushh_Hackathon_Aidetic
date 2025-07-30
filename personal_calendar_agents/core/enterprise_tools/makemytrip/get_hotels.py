@@ -3,7 +3,7 @@ import os
 import json
 
 class GetHotels(Tool):
-    def __call__(self, base_dir="./data/agents/enterprise/makemytrip", user_id = None):
+    def __call__(self, base_dir=f"{os.getenv('DATABASE')}/agents/enterprise/makemytrip", user_id = None):
         """
         get_hotels() -> list
         Returns a list of hotel dicts.

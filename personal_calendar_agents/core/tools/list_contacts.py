@@ -20,7 +20,7 @@ class ListContacts(Tool):
         
     """
 
-    def __call__(self, user_id, base_dir="./data/agents/personal"):
+    def __call__(self, user_id, base_dir=f"{os.getenv('DATABASE')}/agents/personal"):
         """
     list_contacts(user_id: str, base_dir: str = "./data/agents/personal") -> list
 

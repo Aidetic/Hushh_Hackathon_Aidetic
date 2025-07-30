@@ -117,7 +117,7 @@ def generate_transactions(n=150):
     return transaction_list
 
 # Main loop to create different transactions for each agent
-path_root = "./data/agents/personal/"
+path_root = f"{os.getenv('DATABASE')}/agents/personal/"
 
 for agent_name in os.listdir(path_root):
     # Skip hidden files/folders if any

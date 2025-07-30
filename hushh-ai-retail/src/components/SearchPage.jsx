@@ -17,7 +17,7 @@ import PersonIcon from "@mui/icons-material/Person";
 
 const SearchPage = () => {
   const navigate = useNavigate();
-  const [selectedEmail, setSelectedEmail] = useState("");
+  const [selectedEmail, setSelectedEmail] = useState("pandeygag78934@gmail.com");
   const [anchorEl, setAnchorEl] = useState(null);
   const open = Boolean(anchorEl);
 

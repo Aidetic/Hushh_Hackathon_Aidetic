@@ -64,6 +64,7 @@ const ResultsPage = () => {
 
 
   useEffect(() => {
+    console.log("Triggered useEffect due to query:", query);
     if (query) {
       fetchResults(query);
     }

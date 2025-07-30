@@ -17,7 +17,8 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173",
-        "http://164.52.195.168:3011"
+        "http://164.52.195.168:3011",
+        "https://agents.hushh.aidetic.in"
     ],
     allow_credentials=True,
     allow_methods=["*"],
@@ -52,8 +53,11 @@ def run_agent(
         "user_email": "user@example.com"
     }
     """
-    return StreamingResponse(agent_yield_response(query.instruction, query.user_email), media_type="text/plain")
-
+    try:
+        return StreamingResponse(agent_yield_response(query.instruction, query.user_email), media_type="text/plain")
+    except Exception as e:
+        print(f"Error while evaluating query: {str(e)}")
+        raise Exception(f"Error: {str(e)}")
 # Optional: Quick local dev run
 if __name__ == "__main__":
     import uvicorn
