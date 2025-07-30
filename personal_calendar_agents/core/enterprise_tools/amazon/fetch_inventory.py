@@ -3,7 +3,7 @@ import os
 import json
 
 class FetchInventory(Tool):
-    def __call__(self, base_dir="./data/agents/enterprise/amazon", user_id = None):
+    def __call__(self, base_dir=f"{os.getenv('DATABASE')}/agents/enterprise/amazon", user_id = None):
         """
         fetch_inventory() -> list
 

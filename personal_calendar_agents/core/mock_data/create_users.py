@@ -173,7 +173,7 @@ quirks:
 """
 ]
 
-base_dir = "./data/agents/personal"
+base_dir = f"{os.getenv('DATABASE')}/agents/personal"
 for i, username in enumerate(usernames):
     userpath = os.path.join(base_dir, username)
     os.makedirs(userpath, exist_ok=True)

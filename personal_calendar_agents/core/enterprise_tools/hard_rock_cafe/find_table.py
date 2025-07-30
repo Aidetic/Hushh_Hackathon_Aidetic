@@ -3,7 +3,7 @@ import os
 import json
 
 class FindTable(Tool):
-    def __call__(self, date, party_size, base_dir="./data/agents/enterprise/hard_rock_cafe", user_id = None):
+    def __call__(self, date, party_size, base_dir=f"{os.getenv('DATABASE')}/agents/enterprise/hard_rock_cafe", user_id = None):
         """
         find_table(date: str, party_size: int, base_dir: str = "./data/agents/enterprise/hard_rock_cafe") -> list
 

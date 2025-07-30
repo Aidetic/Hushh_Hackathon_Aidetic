@@ -1,8 +1,8 @@
+import os
 from core.tools.base import Tool
 
-
 class GetTransactions(Tool):
-    def __call__(self, user_id, base_dir="./data/agents/personal"):
+    def __call__(self, user_id, base_dir=f"{os.getenv('DATABASE')}/agents/personal"):
         """
         get_transactions(user_id: str, base_dir: str = "./data/agents/personal") -> list
         Returns a list of transactions for the specified user_id.

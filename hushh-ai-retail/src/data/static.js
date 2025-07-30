@@ -1,4 +1,4 @@
-export const welcomeText = "Welcome to your personalized marketplace";
+export const welcomeText = "We have agents for that";
 
 export const mockData = {
   mall_resp: [

@@ -54,13 +54,14 @@ class ContactAgent(Tool):
         # The main loop
         # yield section(f"{responder_agent.username} Planning Step {n_turns+1}", "🤖")
         # yield f"{responder_agent.username} is processing: {initiator_agenda}"
-        yield json.dumps(
-            {
-                "title": "logs",
-                "content": f"{responder_agent.username} is processing: {initiator_agenda}",
-            },
-            ensure_ascii=False,
-        )
+        # yield json.dumps(
+        #     {
+        #         "title": "logs",
+        #         "content": f"{responder_agent.username} is processing: {initiator_agenda}",
+        #     },
+        #     ensure_ascii=False,
+        # )
+        yield json.dumps(f"{responder_agent.username} is processing: {initiator_agenda}", ensure_ascii=False)
 
         responder_reply_steps = list(
             responder_agent.handle_message(
@@ -72,17 +73,22 @@ class ContactAgent(Tool):
         for step in responder_reply_steps:
             # Indent for subagent clarity
             # yield "\t> ".join(str(step).splitlines())
-            yield json.dumps(
-                {"title": f"logs", "content": " ".join(str(step).splitlines())},
-                ensure_ascii=False,
-            )
-
+            # yield json.dumps(
+            #     {"title": f"logs", "content": " ".join(str(step).splitlines())},
+            #     ensure_ascii=False,
+            # )
+            print(json.loads(" ".join(str(step).splitlines()))["content"], "2" * 100)
+            yield json.loads(" ".join(str(step).splitlines()))["content"]
+            
         responder_reply_text = (
             responder_reply_steps[-1] if responder_reply_steps else ""
         )
+        print(responder_reply_text, type(responder_reply_text), "3" * 100)
         if isinstance(responder_reply_text, dict) and "content" in responder_reply_text:
             responder_reply_text = responder_reply_text["content"]
-
+        else:
+            responder_reply_text = json.loads(responder_reply_text)["content"]
+        print(responder_reply_text, type(responder_reply_text), "4" * 100)
         return responder_reply_text
 
     def __repr__(self):

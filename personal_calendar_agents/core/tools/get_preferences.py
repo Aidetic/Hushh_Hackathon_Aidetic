@@ -1,8 +1,8 @@
 from core.tools.base import Tool
-
+import os
 
 class GetPreferences(Tool):
-    def __call__(self, user_id, base_dir="./data/agents/personal"):
+    def __call__(self, user_id, base_dir=f"{os.getenv('DATABASE')}/agents/personal"):
         """
         For any gifting, purchasing, planning related queries about YOURSELF AS AN AI AGENT or HUMAN, these are NECESSARY.
         get_preferences(user_id: str, base_dir: str = "./data/agents/personal") -> str
