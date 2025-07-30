@@ -5,3 +5,4 @@ google-genai==1.12.1
 google-api-python-client
 fastapi
 uvicorn
+openai

@@ -1,3 +1,3 @@
-from core.llm.gemini import LlmGemini
+from core.llm.openai import LlmOpenai
 
-Llm = LlmGemini
+Llm = LlmOpenai
