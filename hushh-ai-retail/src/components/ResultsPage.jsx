@@ -45,6 +45,8 @@ const ResultsPage = () => {
         instruction: query,
       };
 
+    console.log("Triggered payload: ", payload);
+
       const onStreamMessage = (msg) => {
         setStreamingLogs((prev) => [...prev, msg]);
       };
@@ -64,7 +66,6 @@ const ResultsPage = () => {
 
 
   useEffect(() => {
-    console.log("Triggered useEffect due to query:", query);
     if (query) {
       fetchResults(query);
     }
@@ -78,7 +79,9 @@ const ResultsPage = () => {
   }, [streamingLogs]);
 
   const handleNewSearch = (newQuery) => {
-    navigate(`/results?q=${encodeURIComponent(newQuery)}`);
+    navigate(`/results?q=${encodeURIComponent(newQuery)}`, {
+      state: { selectedEmail },
+    });
   };
 
   if (!query) {
