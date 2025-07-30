@@ -132,7 +132,7 @@ To access the calendar programmatically, you need to set up a Google Calendar AP
 To use the agent-based action planner and executor, follow these steps:
 
 1. **Define Your Query**: Start with a user query that requires action planning.
-   - Example: `message = "Analyze the Calendar data and provide a comprehensive report on the users character profile."`
+   - Example: `message = "What do you know about me?"`
 2. **Set the User Email**: Specify the email of the user for whom the action is being planned.
    - Example: `user_email = "arvindsarda84@gmail.com"`
 3. **Execute the Plan**: Use the executor to run the planned actions in the correct order.
