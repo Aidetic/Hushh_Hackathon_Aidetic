@@ -50,7 +50,7 @@ User 2’s Agent is an exact replica of User 1’s Agent, with the following rol
 
 
 ## Detailed Architecture
-![detailed_diagram](assets/detailed_view.png)
+![detailed_diagram](personal_calendar_agents/assets/detailed_view.png)
 
 The architecture consists of the following key components:
 1. **Tool Registry**: A collection of tools that agents can use to perform actions.
